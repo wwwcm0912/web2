@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../springBoot" />
+    <file type="web" url="file://$PROJECT_DIR$/../sss" />
+    <file type="web" url="file://$PROJECT_DIR$/../test1" />
+    <file type="web" url="file://$PROJECT_DIR$/maven" />
+    <file type="web" url="file://$PROJECT_DIR$/maven2" />
+    <file type="web" url="file://$PROJECT_DIR$/test111" />
+    <file type="web" url="file://$PROJECT_DIR$/testMaven" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven/pom.xml" />
+        <option value="$PROJECT_DIR$/test111/pom.xml" />
+        <option value="$PROJECT_DIR$/../springBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/../springBoot2/pom.xml" />
+        <option value="$PROJECT_DIR$/../springBoot3/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot4/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/maven/pom.xml" />
+        <option value="$PROJECT_DIR$/maven2/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

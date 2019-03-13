@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.UserDao">
+	<!-- 查询所有用户信息 -->
+	<select id="findAll" resultType="User" >
+		select id,name,password from t_user
+	</select>
+	<select id="findNames" resultType="String">
+		select name from t_user
+	</select>
+	<select id="findUserBynameAndPassword" resultType="user">
+		select id,name,password from t_user where name=#{name} and password=#{password}
+	</select>
+	<insert id="insertUser">
+		insert into t_user values(#{user.id},#{user.name},#{user.password})
+	</insert>
+</mapper>
